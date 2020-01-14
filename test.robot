@@ -9,7 +9,7 @@ Library    Selenium2Library
 
 *** Test Cases ***
 1. เปิดเว็บไซต์
-  Open Browser  http://localhost/BI/  chrome
+  Open Browser  http://localhost/BI/1  chrome
 2. กรอกคำว่า username & password
   Input Text  id=userTextBox  admin
   Input Password  id=passwordTextBox  admin       
